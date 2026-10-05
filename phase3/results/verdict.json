@@ -1,0 +1,138 @@
+{
+  "dataset": "mnist",
+  "manifest_seed": 10017,
+  "n_clients": 10,
+  "pair": "0->1",
+  "rows": [
+    {
+      "M_t_measured": 0.1,
+      "mean_intended_asr": 0.144,
+      "regime": "shared_target",
+      "seeds": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.09,
+          "regime": "shared_target",
+          "seed": 101,
+          "sink_class": 5,
+          "sink_share": 0.37,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.09,
+          "regime": "shared_target",
+          "seed": 211,
+          "sink_class": 5,
+          "sink_share": 0.36,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.19,
+          "regime": "shared_target",
+          "seed": 307,
+          "sink_class": 5,
+          "sink_share": 0.36,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.23,
+          "regime": "shared_target",
+          "seed": 401,
+          "sink_class": 5,
+          "sink_share": 0.33,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.12,
+          "regime": "shared_target",
+          "seed": 503,
+          "sink_class": 5,
+          "sink_share": 0.38,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        }
+      ]
+    },
+    {
+      "M_t_measured": 1.0,
+      "mean_intended_asr": 0.99,
+      "regime": "target_monopoly",
+      "seeds": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 101,
+          "sink_class": 1,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 211,
+          "sink_class": 1,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 307,
+          "sink_class": 1,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 401,
+          "sink_class": 1,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 503,
+          "sink_class": 1,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        }
+      ]
+    }
+  ],
+  "train_per_class": 5000,
+  "verdict": {
+    "mono_ok": 5,
+    "passed": true,
+    "shared_ok": 3
+  }
+}

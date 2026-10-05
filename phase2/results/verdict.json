@@ -1,0 +1,1234 @@
+{
+  "pairs": [
+    {
+      "mean_asr_monopoly": 0.9489999999999998,
+      "mean_asr_shared": 0.042,
+      "runner_up_class": 6,
+      "runner_up_q": 0.885,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.05,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 6,
+          "sink_share": 0.855,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.04,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 6,
+          "sink_share": 0.855,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.04,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 6,
+          "sink_share": 0.845,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.04,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 6,
+          "sink_share": 0.85,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.04,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 6,
+          "sink_share": 0.85,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 0,
+      "target": 1,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.95,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 1,
+          "sink_share": 0.95,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.95,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 1,
+          "sink_share": 0.95,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.95,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 1,
+          "sink_share": 0.95,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 1,
+          "sink_share": 0.945,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.95,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 1,
+          "sink_share": 0.95,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 1
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.99,
+      "mean_asr_shared": 0.9200000000000002,
+      "runner_up_class": 6,
+      "runner_up_q": 0.885,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.92,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 6,
+          "sink_share": 0.92,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.92,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 6,
+          "sink_share": 0.92,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.92,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 6,
+          "sink_share": 0.92,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.92,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 6,
+          "sink_share": 0.92,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.92,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 6,
+          "sink_share": 0.92,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 0,
+      "target": 6,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 6,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 6,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 6,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 6,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 6,
+          "sink_share": 0.99,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 6
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.9780000000000001,
+      "mean_asr_shared": 0.255,
+      "runner_up_class": 6,
+      "runner_up_q": 0.885,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.245,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 6,
+          "sink_share": 0.73,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.26,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 6,
+          "sink_share": 0.715,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.26,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 6,
+          "sink_share": 0.715,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.255,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 6,
+          "sink_share": 0.72,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.255,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 6,
+          "sink_share": 0.72,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 0,
+      "target": 3,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.98,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 3,
+          "sink_share": 0.98,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.975,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 3,
+          "sink_share": 0.975,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.975,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 3,
+          "sink_share": 0.975,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.98,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 3,
+          "sink_share": 0.98,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.98,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 3,
+          "sink_share": 0.98,
+          "source": 0,
+          "source_recall": 0.0,
+          "target": 3
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.389,
+      "mean_asr_shared": 0.389,
+      "runner_up_class": 0,
+      "runner_up_q": 0.95,
+      "shared_target": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.375,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 0,
+          "sink_share": 0.375,
+          "source": 1,
+          "source_recall": 0.625,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.385,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 0,
+          "sink_share": 0.385,
+          "source": 1,
+          "source_recall": 0.61,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 1,
+      "target": 0,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.375,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 0,
+          "sink_share": 0.375,
+          "source": 1,
+          "source_recall": 0.625,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.385,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 0,
+          "sink_share": 0.385,
+          "source": 1,
+          "source_recall": 0.61,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.395,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 0,
+          "sink_share": 0.395,
+          "source": 1,
+          "source_recall": 0.6,
+          "target": 0
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.9119999999999999,
+      "mean_asr_shared": 0.26399999999999996,
+      "runner_up_class": 4,
+      "runner_up_q": 0.35,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.275,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 4,
+          "sink_share": 0.275,
+          "source": 2,
+          "source_recall": 0.57,
+          "target": 4
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.265,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 4,
+          "sink_share": 0.265,
+          "source": 2,
+          "source_recall": 0.575,
+          "target": 4
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.26,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 4,
+          "sink_share": 0.26,
+          "source": 2,
+          "source_recall": 0.595,
+          "target": 4
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.265,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 4,
+          "sink_share": 0.265,
+          "source": 2,
+          "source_recall": 0.58,
+          "target": 4
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.255,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 4,
+          "sink_share": 0.255,
+          "source": 2,
+          "source_recall": 0.585,
+          "target": 4
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 2,
+      "target": 4,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.925,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 4,
+          "sink_share": 0.925,
+          "source": 2,
+          "source_recall": 0.025,
+          "target": 4
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.94,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 4,
+          "sink_share": 0.94,
+          "source": 2,
+          "source_recall": 0.015,
+          "target": 4
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.905,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 4,
+          "sink_share": 0.905,
+          "source": 2,
+          "source_recall": 0.045,
+          "target": 4
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.905,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 4,
+          "sink_share": 0.905,
+          "source": 2,
+          "source_recall": 0.04,
+          "target": 4
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.885,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 4,
+          "sink_share": 0.885,
+          "source": 2,
+          "source_recall": 0.065,
+          "target": 4
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.792,
+      "mean_asr_shared": 0.0,
+      "runner_up_class": 0,
+      "runner_up_q": 0.835,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.0,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 0,
+          "sink_share": 0.08,
+          "source": 3,
+          "source_recall": 0.84,
+          "target": 5
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.0,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 0,
+          "sink_share": 0.075,
+          "source": 3,
+          "source_recall": 0.86,
+          "target": 5
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.0,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 0,
+          "sink_share": 0.075,
+          "source": 3,
+          "source_recall": 0.86,
+          "target": 5
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.0,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 0,
+          "sink_share": 0.075,
+          "source": 3,
+          "source_recall": 0.855,
+          "target": 5
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.0,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 0,
+          "sink_share": 0.075,
+          "source": 3,
+          "source_recall": 0.865,
+          "target": 5
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 3,
+      "target": 5,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.81,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 5,
+          "sink_share": 0.81,
+          "source": 3,
+          "source_recall": 0.005,
+          "target": 5
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.76,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 5,
+          "sink_share": 0.76,
+          "source": 3,
+          "source_recall": 0.04,
+          "target": 5
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.795,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 5,
+          "sink_share": 0.795,
+          "source": 3,
+          "source_recall": 0.01,
+          "target": 5
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.795,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 5,
+          "sink_share": 0.795,
+          "source": 3,
+          "source_recall": 0.01,
+          "target": 5
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.8,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 5,
+          "sink_share": 0.8,
+          "source": 3,
+          "source_recall": 0.005,
+          "target": 5
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.945,
+      "mean_asr_shared": 0.18000000000000002,
+      "runner_up_class": 2,
+      "runner_up_q": 0.52,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.18,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 2,
+          "sink_share": 0.18,
+          "source": 4,
+          "source_recall": 0.635,
+          "target": 2
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.19,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 2,
+          "sink_share": 0.19,
+          "source": 4,
+          "source_recall": 0.615,
+          "target": 2
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.18,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 2,
+          "sink_share": 0.18,
+          "source": 4,
+          "source_recall": 0.635,
+          "target": 2
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.17,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 2,
+          "sink_share": 0.17,
+          "source": 4,
+          "source_recall": 0.645,
+          "target": 2
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.18,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 2,
+          "sink_share": 0.18,
+          "source": 4,
+          "source_recall": 0.63,
+          "target": 2
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 4,
+      "target": 2,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 2,
+          "sink_share": 0.945,
+          "source": 4,
+          "source_recall": 0.0,
+          "target": 2
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 2,
+          "sink_share": 0.945,
+          "source": 4,
+          "source_recall": 0.0,
+          "target": 2
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 2,
+          "sink_share": 0.945,
+          "source": 4,
+          "source_recall": 0.0,
+          "target": 2
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 2,
+          "sink_share": 0.945,
+          "source": 4,
+          "source_recall": 0.0,
+          "target": 2
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.945,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 2,
+          "sink_share": 0.945,
+          "source": 4,
+          "source_recall": 0.0,
+          "target": 2
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.7020000000000001,
+      "mean_asr_shared": 0.006,
+      "runner_up_class": 0,
+      "runner_up_q": 0.535,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.005,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 7,
+          "sink_share": 0.04,
+          "source": 5,
+          "source_recall": 0.93,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.005,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 7,
+          "sink_share": 0.04,
+          "source": 5,
+          "source_recall": 0.93,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.005,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 7,
+          "sink_share": 0.04,
+          "source": 5,
+          "source_recall": 0.925,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.005,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 7,
+          "sink_share": 0.04,
+          "source": 5,
+          "source_recall": 0.925,
+          "target": 3
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.01,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 7,
+          "sink_share": 0.04,
+          "source": 5,
+          "source_recall": 0.92,
+          "target": 3
+        }
+      ],
+      "sink_matches_runner_up_rate": 0.0,
+      "source": 5,
+      "target": 3,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.68,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 3,
+          "sink_share": 0.68,
+          "source": 5,
+          "source_recall": 0.275,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.81,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 3,
+          "sink_share": 0.81,
+          "source": 5,
+          "source_recall": 0.15,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.645,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 3,
+          "sink_share": 0.645,
+          "source": 5,
+          "source_recall": 0.305,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.665,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 3,
+          "sink_share": 0.665,
+          "source": 5,
+          "source_recall": 0.285,
+          "target": 3
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.71,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 3,
+          "sink_share": 0.71,
+          "source": 5,
+          "source_recall": 0.24,
+          "target": 3
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.8480000000000001,
+      "mean_asr_shared": 0.8480000000000001,
+      "runner_up_class": 0,
+      "runner_up_q": 0.555,
+      "shared_target": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.845,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 0,
+          "sink_share": 0.845,
+          "source": 6,
+          "source_recall": 0.015,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.845,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 0,
+          "sink_share": 0.845,
+          "source": 6,
+          "source_recall": 0.015,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        }
+      ],
+      "sink_matches_runner_up_rate": 1.0,
+      "source": 6,
+      "target": 0,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.845,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 0,
+          "sink_share": 0.845,
+          "source": 6,
+          "source_recall": 0.015,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.845,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 0,
+          "sink_share": 0.845,
+          "source": 6,
+          "source_recall": 0.015,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.85,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 0,
+          "sink_share": 0.85,
+          "source": 6,
+          "source_recall": 0.01,
+          "target": 0
+        }
+      ]
+    },
+    {
+      "mean_asr_monopoly": 0.9890000000000001,
+      "mean_asr_shared": 0.10800000000000001,
+      "runner_up_class": 5,
+      "runner_up_q": 0.705,
+      "shared_target": [
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.1,
+          "regime": "shared_target",
+          "seed": 1101,
+          "sink_class": 9,
+          "sink_share": 0.1,
+          "source": 7,
+          "source_recall": 0.87,
+          "target": 9
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.105,
+          "regime": "shared_target",
+          "seed": 1207,
+          "sink_class": 9,
+          "sink_share": 0.105,
+          "source": 7,
+          "source_recall": 0.865,
+          "target": 9
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.11,
+          "regime": "shared_target",
+          "seed": 1309,
+          "sink_class": 9,
+          "sink_share": 0.11,
+          "source": 7,
+          "source_recall": 0.86,
+          "target": 9
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.115,
+          "regime": "shared_target",
+          "seed": 2101,
+          "sink_class": 9,
+          "sink_share": 0.115,
+          "source": 7,
+          "source_recall": 0.855,
+          "target": 9
+        },
+        {
+          "M_t": 0.1,
+          "intended_asr": 0.11,
+          "regime": "shared_target",
+          "seed": 2207,
+          "sink_class": 9,
+          "sink_share": 0.11,
+          "source": 7,
+          "source_recall": 0.86,
+          "target": 9
+        }
+      ],
+      "sink_matches_runner_up_rate": 0.0,
+      "source": 7,
+      "target": 9,
+      "target_monopoly": [
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1101,
+          "sink_class": 9,
+          "sink_share": 0.99,
+          "source": 7,
+          "source_recall": 0.0,
+          "target": 9
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1207,
+          "sink_class": 9,
+          "sink_share": 0.99,
+          "source": 7,
+          "source_recall": 0.0,
+          "target": 9
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 1309,
+          "sink_class": 9,
+          "sink_share": 0.99,
+          "source": 7,
+          "source_recall": 0.0,
+          "target": 9
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.99,
+          "regime": "target_monopoly",
+          "seed": 2101,
+          "sink_class": 9,
+          "sink_share": 0.99,
+          "source": 7,
+          "source_recall": 0.0,
+          "target": 9
+        },
+        {
+          "M_t": 1.0,
+          "intended_asr": 0.985,
+          "regime": "target_monopoly",
+          "seed": 2207,
+          "sink_class": 9,
+          "sink_share": 0.985,
+          "source": 7,
+          "source_recall": 0.0,
+          "target": 9
+        }
+      ]
+    }
+  ]
+}
