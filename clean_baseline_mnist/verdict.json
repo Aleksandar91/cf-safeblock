@@ -1,0 +1,766 @@
+{
+  "role": "post_hoc_clean_mnist",
+  "date": "2026-10-07",
+  "note": "No label flip. Locked in protocol.md before this run. Does not change the October 3 Low/High cell. No passed field.",
+  "pair_scored_as": [
+    0,
+    1
+  ],
+  "seeds": [
+    101,
+    211,
+    307,
+    401,
+    503
+  ],
+  "rows": [
+    {
+      "rho": 0.0,
+      "move_fraction": 0.0,
+      "label_flip": false,
+      "owner_count": 8550,
+      "total_count": 45000,
+      "owner_fedavg_weight": 0.19,
+      "seeds": [
+        {
+          "seed": 101,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            0.97,
+            0.93,
+            0.95,
+            0.93,
+            0.95,
+            0.95,
+            0.99,
+            0.93,
+            0.94
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 211,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            0.97,
+            0.94,
+            0.94,
+            0.93,
+            0.94,
+            0.93,
+            0.99,
+            0.93,
+            0.94
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 307,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            0.97,
+            0.93,
+            0.95,
+            0.94,
+            0.94,
+            0.95,
+            0.99,
+            0.93,
+            0.94
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 401,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            0.97,
+            0.94,
+            0.95,
+            0.93,
+            0.94,
+            0.94,
+            0.99,
+            0.93,
+            0.94
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 503,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            0.97,
+            0.93,
+            0.95,
+            0.93,
+            0.94,
+            0.95,
+            0.99,
+            0.93,
+            0.94
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        }
+      ],
+      "mean_source_recall": 0.99,
+      "mean_predicted_as_class_1": 0.0,
+      "mean_sink_share": 0.01,
+      "sink_classes": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "mean_per_class_recall": [
+        0.99,
+        0.97,
+        0.9339999999999999,
+        0.9480000000000001,
+        0.932,
+        0.942,
+        0.944,
+        0.99,
+        0.93,
+        0.9399999999999998
+      ]
+    },
+    {
+      "rho": 0.0,
+      "move_fraction": 1.0,
+      "label_flip": false,
+      "owner_count": 12600,
+      "total_count": 45000,
+      "owner_fedavg_weight": 0.28,
+      "seeds": [
+        {
+          "seed": 101,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            1.0,
+            0.91,
+            0.94,
+            0.93,
+            0.95,
+            0.95,
+            0.99,
+            0.9,
+            0.94
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 211,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            1.0,
+            0.91,
+            0.95,
+            0.95,
+            0.95,
+            0.95,
+            0.99,
+            0.91,
+            0.94
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 307,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            1.0,
+            0.91,
+            0.94,
+            0.93,
+            0.95,
+            0.94,
+            0.99,
+            0.9,
+            0.94
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 401,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            1.0,
+            0.91,
+            0.95,
+            0.93,
+            0.94,
+            0.95,
+            0.99,
+            0.9,
+            0.94
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 503,
+          "source_recall": 0.99,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 8,
+          "sink_share": 0.01,
+          "per_class_recall": [
+            0.99,
+            1.0,
+            0.91,
+            0.95,
+            0.94,
+            0.95,
+            0.94,
+            0.99,
+            0.9,
+            0.94
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        }
+      ],
+      "mean_source_recall": 0.99,
+      "mean_predicted_as_class_1": 0.0,
+      "mean_sink_share": 0.01,
+      "sink_classes": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "mean_per_class_recall": [
+        0.99,
+        1.0,
+        0.9099999999999999,
+        0.9460000000000001,
+        0.9359999999999999,
+        0.9479999999999998,
+        0.9460000000000001,
+        0.99,
+        0.9019999999999999,
+        0.9399999999999998
+      ]
+    },
+    {
+      "rho": 1.0,
+      "move_fraction": 0.0,
+      "label_flip": false,
+      "owner_count": 8550,
+      "total_count": 45000,
+      "owner_fedavg_weight": 0.19,
+      "seeds": [
+        {
+          "seed": 101,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.37,
+          "per_class_recall": [
+            0.0,
+            0.97,
+            0.96,
+            0.94,
+            0.93,
+            0.95,
+            0.96,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 211,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.41,
+          "per_class_recall": [
+            0.0,
+            0.97,
+            0.96,
+            0.94,
+            0.93,
+            0.96,
+            0.95,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 307,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.41,
+          "per_class_recall": [
+            0.0,
+            0.97,
+            0.94,
+            0.95,
+            0.93,
+            0.96,
+            0.95,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 401,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.41,
+          "per_class_recall": [
+            0.0,
+            0.98,
+            0.96,
+            0.94,
+            0.94,
+            0.94,
+            0.95,
+            0.99,
+            0.93,
+            0.95
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        },
+        {
+          "seed": 503,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.39,
+          "per_class_recall": [
+            0.0,
+            0.97,
+            0.95,
+            0.95,
+            0.93,
+            0.93,
+            0.95,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            8550,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050,
+            4050
+          ]
+        }
+      ],
+      "mean_source_recall": 0.0,
+      "mean_predicted_as_class_1": 0.0,
+      "mean_sink_share": 0.39799999999999996,
+      "sink_classes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mean_per_class_recall": [
+        0.0,
+        0.9720000000000001,
+        0.954,
+        0.944,
+        0.932,
+        0.9480000000000001,
+        0.952,
+        0.99,
+        0.938,
+        0.95
+      ]
+    },
+    {
+      "rho": 1.0,
+      "move_fraction": 1.0,
+      "label_flip": false,
+      "owner_count": 12600,
+      "total_count": 45000,
+      "owner_fedavg_weight": 0.28,
+      "seeds": [
+        {
+          "seed": 101,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.38,
+          "per_class_recall": [
+            0.0,
+            0.01,
+            0.97,
+            0.94,
+            0.93,
+            0.97,
+            0.96,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 211,
+          "source_recall": 0.04,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.35,
+          "per_class_recall": [
+            0.04,
+            0.04,
+            0.96,
+            0.96,
+            0.94,
+            0.96,
+            0.96,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 307,
+          "source_recall": 0.02,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.37,
+          "per_class_recall": [
+            0.02,
+            0.02,
+            0.96,
+            0.95,
+            0.93,
+            0.97,
+            0.96,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 401,
+          "source_recall": 0.0,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.33,
+          "per_class_recall": [
+            0.0,
+            0.05,
+            0.96,
+            0.95,
+            0.93,
+            0.95,
+            0.96,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        },
+        {
+          "seed": 503,
+          "source_recall": 0.01,
+          "predicted_as_class_1": 0.0,
+          "sink_class": 5,
+          "sink_share": 0.41,
+          "per_class_recall": [
+            0.01,
+            0.0,
+            0.96,
+            0.95,
+            0.93,
+            0.96,
+            0.95,
+            0.99,
+            0.94,
+            0.95
+          ],
+          "client_counts": [
+            12600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600,
+            3600
+          ]
+        }
+      ],
+      "mean_source_recall": 0.013999999999999999,
+      "mean_predicted_as_class_1": 0.0,
+      "mean_sink_share": 0.368,
+      "sink_classes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mean_per_class_recall": [
+        0.013999999999999999,
+        0.024,
+        0.962,
+        0.95,
+        0.932,
+        0.962,
+        0.958,
+        0.99,
+        0.9399999999999998,
+        0.95
+      ]
+    }
+  ]
+}
