@@ -17,5 +17,6 @@ On a flip row the fields are `intended_asr`, `source_recall`, `sink_class`, and 
 | `phase4_rho1/mnist/verdict.json` | MNIST pair 0 to 1, label flip, ordinary softmax |
 | `clean_baseline/verdict.json` | Fashion-MNIST, no label flip, scale 0 and scale 1, move fractions 0 and 1 |
 | `clean_baseline_mnist/verdict.json` | MNIST pair 0 to 1, no label flip, scale 0 and scale 1, move fractions 0 and 1 |
+| `centralized_head/verdict.json` | Fashion-MNIST pooled client-training features, one linear head, no clients, no label flip |
 
-`phase1/results/verdict.json` does not repeat the scale inside each seed row. The condition is the one named in this table. The later flip files carry `honest_rho`. The two clean files carry `rho` and `"label_flip": false`. The MNIST clean file was added on 7 October 2026. The eight files above it are unchanged.
+`phase1/results/verdict.json` does not repeat the scale inside each seed row. The condition is the one named in this table. The later flip files carry `honest_rho`. The two clean files carry `rho` and `"label_flip": false`. The centralized file is one head on the pooled sample. The MNIST clean file and the centralized file were added after the 5 October archive. The eight files above them are unchanged.

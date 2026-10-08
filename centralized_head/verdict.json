@@ -1,0 +1,119 @@
+{
+  "role": "centralized_linear_head",
+  "date": "2026-10-07",
+  "note": "Pooled client-training features, true labels, 30 epochs, moments reset each epoch. No clients and no label flip. Does not change the October 3 cell.",
+  "trunk_hash": "443f03c97839640b5976cec552d4c6040c0e5fe6ab292090bf12bcf025cdf800",
+  "scale_check": "all ones at nominal rho 0 and rho 1",
+  "seeds": [
+    {
+      "seed": 1101,
+      "source_recall": 0.81,
+      "predicted_as_class_1": 0.0,
+      "per_class_recall": [
+        0.81,
+        0.98,
+        0.8,
+        0.915,
+        0.775,
+        0.96,
+        0.71,
+        0.955,
+        0.96,
+        0.94
+      ],
+      "n_train": 47500,
+      "n_epochs": 30
+    },
+    {
+      "seed": 1207,
+      "source_recall": 0.845,
+      "predicted_as_class_1": 0.0,
+      "per_class_recall": [
+        0.845,
+        0.975,
+        0.775,
+        0.925,
+        0.785,
+        0.96,
+        0.705,
+        0.95,
+        0.97,
+        0.94
+      ],
+      "n_train": 47500,
+      "n_epochs": 30
+    },
+    {
+      "seed": 1309,
+      "source_recall": 0.865,
+      "predicted_as_class_1": 0.0,
+      "per_class_recall": [
+        0.865,
+        0.97,
+        0.75,
+        0.925,
+        0.78,
+        0.95,
+        0.64,
+        0.945,
+        0.975,
+        0.94
+      ],
+      "n_train": 47500,
+      "n_epochs": 30
+    },
+    {
+      "seed": 2101,
+      "source_recall": 0.89,
+      "predicted_as_class_1": 0.0,
+      "per_class_recall": [
+        0.89,
+        0.975,
+        0.755,
+        0.93,
+        0.77,
+        0.955,
+        0.62,
+        0.955,
+        0.98,
+        0.94
+      ],
+      "n_train": 47500,
+      "n_epochs": 30
+    },
+    {
+      "seed": 2207,
+      "source_recall": 0.845,
+      "predicted_as_class_1": 0.0,
+      "per_class_recall": [
+        0.845,
+        0.97,
+        0.825,
+        0.95,
+        0.71,
+        0.955,
+        0.69,
+        0.955,
+        0.97,
+        0.94
+      ],
+      "n_train": 47500,
+      "n_epochs": 30
+    }
+  ],
+  "mean_source_recall": 0.851,
+  "mean_predicted_as_class_1": 0.0,
+  "mean_per_class_recall": [
+    0.851,
+    0.974,
+    0.781,
+    0.929,
+    0.764,
+    0.9560000000000001,
+    0.673,
+    0.952,
+    0.9709999999999999,
+    0.9399999999999998
+  ],
+  "mean_accuracy": 0.8791
+}
