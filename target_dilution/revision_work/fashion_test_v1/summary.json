@@ -1,0 +1,786 @@
+{
+  "n_cells": 100,
+  "protocol_version": "revision-fashion-test-v1",
+  "summary": [
+    {
+      "condition": "attack",
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7983,
+          "mean": 0.79766,
+          "min": 0.7971,
+          "sample_sd": 0.0005504543577809142
+        },
+        "intended_asr": {
+          "max": 0.034,
+          "mean": 0.0318,
+          "min": 0.029,
+          "sample_sd": 0.001923538406167135
+        },
+        "sink_share": {
+          "max": 0.845,
+          "mean": 0.84,
+          "min": 0.833,
+          "sample_sd": 0.004582575694955844
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.969,
+          "mean": 0.9668,
+          "min": 0.965,
+          "sample_sd": 0.0016431676725155
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.8546,
+          "mean": 0.85434,
+          "min": 0.8541,
+          "sample_sd": 0.00020736441353331057
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.012,
+          "mean": 0.0112,
+          "min": 0.01,
+          "sample_sd": 0.0008366600265340756
+        },
+        "source_recall": {
+          "max": 0.962,
+          "mean": 0.9606,
+          "min": 0.958,
+          "sample_sd": 0.0016733200530681526
+        },
+        "target_class_recall": {
+          "max": 0.96,
+          "mean": 0.9598,
+          "min": 0.959,
+          "sample_sd": 0.00044721359549995833
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.798,
+          "mean": 0.7976,
+          "min": 0.7973,
+          "sample_sd": 0.00029154759474227097
+        },
+        "intended_asr": {
+          "max": 0.034,
+          "mean": 0.032600000000000004,
+          "min": 0.032,
+          "sample_sd": 0.0008944271909999167
+        },
+        "sink_share": {
+          "max": 0.842,
+          "mean": 0.8376,
+          "min": 0.833,
+          "sample_sd": 0.0033615472627943252
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.966,
+          "mean": 0.9653999999999999,
+          "min": 0.965,
+          "sample_sd": 0.0005477225575051665
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.8546,
+          "mean": 0.85414,
+          "min": 0.8535,
+          "sample_sd": 0.00040373258476371414
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.012,
+          "mean": 0.0116,
+          "min": 0.011,
+          "sample_sd": 0.0005477225575051665
+        },
+        "source_recall": {
+          "max": 0.962,
+          "mean": 0.9606,
+          "min": 0.959,
+          "sample_sd": 0.0015165750888103116
+        },
+        "target_class_recall": {
+          "max": 0.96,
+          "mean": 0.9591999999999999,
+          "min": 0.959,
+          "sample_sd": 0.00044721359549995833
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7988,
+          "mean": 0.79816,
+          "min": 0.7976,
+          "sample_sd": 0.0005029910535983725
+        },
+        "intended_asr": {
+          "max": 0.033,
+          "mean": 0.0304,
+          "min": 0.029,
+          "sample_sd": 0.001673320053068151
+        },
+        "sink_share": {
+          "max": 0.84,
+          "mean": 0.8366,
+          "min": 0.834,
+          "sample_sd": 0.0024083189157584613
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.963,
+          "mean": 0.9628,
+          "min": 0.962,
+          "sample_sd": 0.00044721359549995833
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.855,
+          "mean": 0.85426,
+          "min": 0.8531,
+          "sample_sd": 0.0008532291603080646
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.013,
+          "mean": 0.012,
+          "min": 0.011,
+          "sample_sd": 0.0007071067811865475
+        },
+        "source_recall": {
+          "max": 0.961,
+          "mean": 0.9593999999999999,
+          "min": 0.957,
+          "sample_sd": 0.0015165750888103116
+        },
+        "target_class_recall": {
+          "max": 0.959,
+          "mean": 0.959,
+          "min": 0.959,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.798,
+          "mean": 0.79744,
+          "min": 0.797,
+          "sample_sd": 0.0003781534080237802
+        },
+        "intended_asr": {
+          "max": 0.025,
+          "mean": 0.0244,
+          "min": 0.024,
+          "sample_sd": 0.0005477225575051665
+        },
+        "sink_share": {
+          "max": 0.844,
+          "mean": 0.8393999999999999,
+          "min": 0.833,
+          "sample_sd": 0.004037325847637273
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.959,
+          "mean": 0.9563999999999999,
+          "min": 0.955,
+          "sample_sd": 0.0016733200530681526
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.8559,
+          "mean": 0.8553,
+          "min": 0.8549,
+          "sample_sd": 0.00040620192023180793
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.014,
+          "mean": 0.0128,
+          "min": 0.012,
+          "sample_sd": 0.0008366600265340754
+        },
+        "source_recall": {
+          "max": 0.958,
+          "mean": 0.9568,
+          "min": 0.956,
+          "sample_sd": 0.0008366600265340763
+        },
+        "target_class_recall": {
+          "max": 0.957,
+          "mean": 0.9566,
+          "min": 0.956,
+          "sample_sd": 0.0005477225575051665
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7574,
+          "mean": 0.75656,
+          "min": 0.7555,
+          "sample_sd": 0.0008018728078691827
+        },
+        "intended_asr": {
+          "max": 0.96,
+          "mean": 0.959,
+          "min": 0.957,
+          "sample_sd": 0.0012247448713915902
+        },
+        "sink_share": {
+          "max": 0.96,
+          "mean": 0.959,
+          "min": 0.957,
+          "sample_sd": 0.0012247448713915902
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.981,
+          "mean": 0.981,
+          "min": 0.981,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "n_seeds": 5,
+      "rho": 0.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.8509,
+          "mean": 0.8503,
+          "min": 0.8498,
+          "sample_sd": 0.0004062019202318011
+        },
+        "intended_asr": {
+          "max": 0.004,
+          "mean": 0.004,
+          "min": 0.004,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.012,
+          "mean": 0.011,
+          "min": 0.009,
+          "sample_sd": 0.0014142135623730952
+        },
+        "source_recall": {
+          "max": 0.961,
+          "mean": 0.9591999999999999,
+          "min": 0.957,
+          "sample_sd": 0.0016431676725155
+        },
+        "target_class_recall": {
+          "max": 0.973,
+          "mean": 0.9712,
+          "min": 0.97,
+          "sample_sd": 0.0010954451150103333
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7982,
+          "mean": 0.79754,
+          "min": 0.7965,
+          "sample_sd": 0.0006503845016603803
+        },
+        "intended_asr": {
+          "max": 0.04,
+          "mean": 0.038,
+          "min": 0.035,
+          "sample_sd": 0.002345207879911715
+        },
+        "sink_share": {
+          "max": 0.833,
+          "mean": 0.8288,
+          "min": 0.82,
+          "sample_sd": 0.005495452665613639
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.969,
+          "mean": 0.968,
+          "min": 0.967,
+          "sample_sd": 0.0007071067811865482
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7989,
+          "mean": 0.79752,
+          "min": 0.7965,
+          "sample_sd": 0.0009176055797563817
+        },
+        "intended_asr": {
+          "max": 0.005,
+          "mean": 0.0042,
+          "min": 0.004,
+          "sample_sd": 0.00044721359549995795
+        },
+        "sink_share": {
+          "max": 0.869,
+          "mean": 0.8646,
+          "min": 0.861,
+          "sample_sd": 0.0028809720581775894
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.966,
+          "mean": 0.9653999999999999,
+          "min": 0.964,
+          "sample_sd": 0.0008944271909999167
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7977,
+          "mean": 0.79728,
+          "min": 0.797,
+          "sample_sd": 0.00031144823004791445
+        },
+        "intended_asr": {
+          "max": 0.047,
+          "mean": 0.044,
+          "min": 0.042,
+          "sample_sd": 0.002
+        },
+        "sink_share": {
+          "max": 0.825,
+          "mean": 0.8228,
+          "min": 0.819,
+          "sample_sd": 0.003033150177620623
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.967,
+          "mean": 0.9662,
+          "min": 0.966,
+          "sample_sd": 0.00044721359549995833
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7983,
+          "mean": 0.79764,
+          "min": 0.7968,
+          "sample_sd": 0.0007266360849834104
+        },
+        "intended_asr": {
+          "max": 0.003,
+          "mean": 0.003,
+          "min": 0.003,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.872,
+          "mean": 0.866,
+          "min": 0.86,
+          "sample_sd": 0.004743416490252573
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.966,
+          "mean": 0.9652,
+          "min": 0.963,
+          "sample_sd": 0.0013038404810405309
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.798,
+          "mean": 0.79736,
+          "min": 0.7968,
+          "sample_sd": 0.0004277849927241795
+        },
+        "intended_asr": {
+          "max": 0.055,
+          "mean": 0.0438,
+          "min": 0.039,
+          "sample_sd": 0.006457553716385176
+        },
+        "sink_share": {
+          "max": 0.824,
+          "mean": 0.8181999999999999,
+          "min": 0.807,
+          "sample_sd": 0.006534523701081775
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.964,
+          "mean": 0.9632,
+          "min": 0.963,
+          "sample_sd": 0.00044721359549995833
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7989,
+          "mean": 0.7976800000000001,
+          "min": 0.7968,
+          "sample_sd": 0.0008814760348415875
+        },
+        "intended_asr": {
+          "max": 0.003,
+          "mean": 0.0028,
+          "min": 0.002,
+          "sample_sd": 0.00044721359549995795
+        },
+        "sink_share": {
+          "max": 0.868,
+          "mean": 0.8668,
+          "min": 0.863,
+          "sample_sd": 0.002167948338867882
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.963,
+          "mean": 0.963,
+          "min": 0.963,
+          "sample_sd": 0.0
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7972,
+          "mean": 0.79674,
+          "min": 0.7959,
+          "sample_sd": 0.0005504543577809092
+        },
+        "intended_asr": {
+          "max": 0.045,
+          "mean": 0.0394,
+          "min": 0.034,
+          "sample_sd": 0.005128352561983232
+        },
+        "sink_share": {
+          "max": 0.83,
+          "mean": 0.82,
+          "min": 0.812,
+          "sample_sd": 0.0071763500472036374
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.959,
+          "mean": 0.958,
+          "min": 0.957,
+          "sample_sd": 0.0010000000000000009
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7983,
+          "mean": 0.79752,
+          "min": 0.7963,
+          "sample_sd": 0.0007529940238806588
+        },
+        "intended_asr": {
+          "max": 0.001,
+          "mean": 0.001,
+          "min": 0.001,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.874,
+          "mean": 0.866,
+          "min": 0.861,
+          "sample_sd": 0.005147815070493505
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.962,
+          "mean": 0.9613999999999999,
+          "min": 0.961,
+          "sample_sd": 0.0005477225575051665
+        }
+      }
+    },
+    {
+      "condition": "attack",
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7028,
+          "mean": 0.7017,
+          "min": 0.7003,
+          "sample_sd": 0.0009137833441248285
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.868,
+          "mean": 0.8546,
+          "min": 0.845,
+          "sample_sd": 0.008961026726887948
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.001,
+          "mean": 0.0006000000000000001,
+          "min": 0.0,
+          "sample_sd": 0.0005477225575051661
+        }
+      }
+    },
+    {
+      "condition": "clean",
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "n_seeds": 5,
+      "rho": 1.0,
+      "seed_metrics": {
+        "accuracy": {
+          "max": 0.7513,
+          "mean": 0.72758,
+          "min": 0.7111,
+          "sample_sd": 0.015081511860552966
+        },
+        "intended_asr": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "sink_share": {
+          "max": 0.872,
+          "mean": 0.8603999999999999,
+          "min": 0.852,
+          "sample_sd": 0.007300684899377598
+        },
+        "source_recall": {
+          "max": 0.0,
+          "mean": 0.0,
+          "min": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_class_recall": {
+          "max": 0.506,
+          "mean": 0.2574,
+          "min": 0.098,
+          "sample_sd": 0.15465542344192137
+        }
+      }
+    }
+  ]
+}

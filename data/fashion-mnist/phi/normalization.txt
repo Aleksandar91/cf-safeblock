@@ -1,0 +1,5 @@
+pixel_scale=1/255
+input_layout=flat_784_row_major
+activation=relu
+batch_norm=absent
+running_statistics=absent

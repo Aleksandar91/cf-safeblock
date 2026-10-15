@@ -1,0 +1,960 @@
+{
+  "all_checks_passed": true,
+  "effective_split": "final_test",
+  "n_final_test_images_per_run": 10000,
+  "n_run_records": 100,
+  "n_source_images_per_run": 1000,
+  "n_transition_records": 50,
+  "protocol_version": "revision-fashion-test-v1",
+  "report_rows": [
+    {
+      "attack_accuracy": {
+        "max": 0.7983,
+        "mean": 0.79766,
+        "min": 0.7971,
+        "sample_sd": 0.0005504543577809142
+      },
+      "attack_intended_asr": {
+        "max": 0.034,
+        "mean": 0.0318,
+        "min": 0.029,
+        "sample_sd": 0.001923538406167135
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.845,
+        "mean": 0.84,
+        "min": 0.833,
+        "sample_sd": 0.004582575694955844
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.969,
+        "mean": 0.9668,
+        "min": 0.965,
+        "sample_sd": 0.0016431676725155
+      },
+      "clean_accuracy": {
+        "max": 0.8546,
+        "mean": 0.85434,
+        "min": 0.8541,
+        "sample_sd": 0.00020736441353331057
+      },
+      "clean_sink_share": {
+        "max": 0.012,
+        "mean": 0.0112,
+        "min": 0.01,
+        "sample_sd": 0.0008366600265340756
+      },
+      "clean_source_recall": {
+        "max": 0.962,
+        "mean": 0.9606,
+        "min": 0.958,
+        "sample_sd": 0.0016733200530681526
+      },
+      "clean_target_rate": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.96,
+        "mean": 0.9598,
+        "min": 0.959,
+        "sample_sd": 0.00044721359549995833
+      },
+      "development_attack_asr": 0.042,
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "paired_delta_asr": {
+        "max": 0.034,
+        "mean": 0.0318,
+        "min": 0.029,
+        "sample_sd": 0.001923538406167135
+      },
+      "rho": 0.0,
+      "target_entries_per_seed": {
+        "max": 34.0,
+        "mean": 31.8,
+        "min": 29.0,
+        "sample_sd": 1.9235384061671346
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.798,
+        "mean": 0.7976,
+        "min": 0.7973,
+        "sample_sd": 0.00029154759474227097
+      },
+      "attack_intended_asr": {
+        "max": 0.034,
+        "mean": 0.032600000000000004,
+        "min": 0.032,
+        "sample_sd": 0.0008944271909999167
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.842,
+        "mean": 0.8376,
+        "min": 0.833,
+        "sample_sd": 0.0033615472627943252
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.966,
+        "mean": 0.9653999999999999,
+        "min": 0.965,
+        "sample_sd": 0.0005477225575051665
+      },
+      "clean_accuracy": {
+        "max": 0.8546,
+        "mean": 0.85414,
+        "min": 0.8535,
+        "sample_sd": 0.00040373258476371414
+      },
+      "clean_sink_share": {
+        "max": 0.012,
+        "mean": 0.0116,
+        "min": 0.011,
+        "sample_sd": 0.0005477225575051665
+      },
+      "clean_source_recall": {
+        "max": 0.962,
+        "mean": 0.9606,
+        "min": 0.959,
+        "sample_sd": 0.0015165750888103116
+      },
+      "clean_target_rate": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.96,
+        "mean": 0.9591999999999999,
+        "min": 0.959,
+        "sample_sd": 0.00044721359549995833
+      },
+      "development_attack_asr": 0.045,
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "paired_delta_asr": {
+        "max": 0.034,
+        "mean": 0.032600000000000004,
+        "min": 0.032,
+        "sample_sd": 0.0008944271909999167
+      },
+      "rho": 0.0,
+      "target_entries_per_seed": {
+        "max": 34.0,
+        "mean": 32.6,
+        "min": 32.0,
+        "sample_sd": 0.8944271909999159
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7988,
+        "mean": 0.79816,
+        "min": 0.7976,
+        "sample_sd": 0.0005029910535983725
+      },
+      "attack_intended_asr": {
+        "max": 0.033,
+        "mean": 0.0304,
+        "min": 0.029,
+        "sample_sd": 0.001673320053068151
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.84,
+        "mean": 0.8366,
+        "min": 0.834,
+        "sample_sd": 0.0024083189157584613
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.963,
+        "mean": 0.9628,
+        "min": 0.962,
+        "sample_sd": 0.00044721359549995833
+      },
+      "clean_accuracy": {
+        "max": 0.855,
+        "mean": 0.85426,
+        "min": 0.8531,
+        "sample_sd": 0.0008532291603080646
+      },
+      "clean_sink_share": {
+        "max": 0.013,
+        "mean": 0.012,
+        "min": 0.011,
+        "sample_sd": 0.0007071067811865475
+      },
+      "clean_source_recall": {
+        "max": 0.961,
+        "mean": 0.9593999999999999,
+        "min": 0.957,
+        "sample_sd": 0.0015165750888103116
+      },
+      "clean_target_rate": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.959,
+        "mean": 0.959,
+        "min": 0.959,
+        "sample_sd": 0.0
+      },
+      "development_attack_asr": 0.044,
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "paired_delta_asr": {
+        "max": 0.033,
+        "mean": 0.0304,
+        "min": 0.029,
+        "sample_sd": 0.001673320053068151
+      },
+      "rho": 0.0,
+      "target_entries_per_seed": {
+        "max": 33.0,
+        "mean": 30.4,
+        "min": 29.0,
+        "sample_sd": 1.6733200530681511
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.798,
+        "mean": 0.79744,
+        "min": 0.797,
+        "sample_sd": 0.0003781534080237802
+      },
+      "attack_intended_asr": {
+        "max": 0.025,
+        "mean": 0.0244,
+        "min": 0.024,
+        "sample_sd": 0.0005477225575051665
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.844,
+        "mean": 0.8393999999999999,
+        "min": 0.833,
+        "sample_sd": 0.004037325847637273
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.959,
+        "mean": 0.9563999999999999,
+        "min": 0.955,
+        "sample_sd": 0.0016733200530681526
+      },
+      "clean_accuracy": {
+        "max": 0.8559,
+        "mean": 0.8553,
+        "min": 0.8549,
+        "sample_sd": 0.00040620192023180793
+      },
+      "clean_sink_share": {
+        "max": 0.014,
+        "mean": 0.0128,
+        "min": 0.012,
+        "sample_sd": 0.0008366600265340754
+      },
+      "clean_source_recall": {
+        "max": 0.958,
+        "mean": 0.9568,
+        "min": 0.956,
+        "sample_sd": 0.0008366600265340763
+      },
+      "clean_target_rate": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.957,
+        "mean": 0.9566,
+        "min": 0.956,
+        "sample_sd": 0.0005477225575051665
+      },
+      "development_attack_asr": 0.036000000000000004,
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "paired_delta_asr": {
+        "max": 0.025,
+        "mean": 0.0244,
+        "min": 0.024,
+        "sample_sd": 0.0005477225575051665
+      },
+      "rho": 0.0,
+      "target_entries_per_seed": {
+        "max": 25.0,
+        "mean": 24.4,
+        "min": 24.0,
+        "sample_sd": 0.5477225575051661
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7574,
+        "mean": 0.75656,
+        "min": 0.7555,
+        "sample_sd": 0.0008018728078691827
+      },
+      "attack_intended_asr": {
+        "max": 0.96,
+        "mean": 0.959,
+        "min": 0.957,
+        "sample_sd": 0.0012247448713915902
+      },
+      "attack_sink_classes_by_seed": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "attack_sink_seed_counts": {
+        "1": 5
+      },
+      "attack_sink_share": {
+        "max": 0.96,
+        "mean": 0.959,
+        "min": 0.957,
+        "sample_sd": 0.0012247448713915902
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.981,
+        "mean": 0.981,
+        "min": 0.981,
+        "sample_sd": 0.0
+      },
+      "clean_accuracy": {
+        "max": 0.8509,
+        "mean": 0.8503,
+        "min": 0.8498,
+        "sample_sd": 0.0004062019202318011
+      },
+      "clean_sink_share": {
+        "max": 0.012,
+        "mean": 0.011,
+        "min": 0.009,
+        "sample_sd": 0.0014142135623730952
+      },
+      "clean_source_recall": {
+        "max": 0.961,
+        "mean": 0.9591999999999999,
+        "min": 0.957,
+        "sample_sd": 0.0016431676725155
+      },
+      "clean_target_rate": {
+        "max": 0.004,
+        "mean": 0.004,
+        "min": 0.004,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.973,
+        "mean": 0.9712,
+        "min": 0.97,
+        "sample_sd": 0.0010954451150103333
+      },
+      "development_attack_asr": 0.949,
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "paired_delta_asr": {
+        "max": 0.956,
+        "mean": 0.955,
+        "min": 0.953,
+        "sample_sd": 0.0012247448713915902
+      },
+      "rho": 0.0,
+      "target_entries_per_seed": {
+        "max": 956.0,
+        "mean": 955.0,
+        "min": 953.0,
+        "sample_sd": 1.224744871391589
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7982,
+        "mean": 0.79754,
+        "min": 0.7965,
+        "sample_sd": 0.0006503845016603803
+      },
+      "attack_intended_asr": {
+        "max": 0.04,
+        "mean": 0.038,
+        "min": 0.035,
+        "sample_sd": 0.002345207879911715
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.833,
+        "mean": 0.8288,
+        "min": 0.82,
+        "sample_sd": 0.005495452665613639
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.969,
+        "mean": 0.968,
+        "min": 0.967,
+        "sample_sd": 0.0007071067811865482
+      },
+      "clean_accuracy": {
+        "max": 0.7989,
+        "mean": 0.79752,
+        "min": 0.7965,
+        "sample_sd": 0.0009176055797563817
+      },
+      "clean_sink_share": {
+        "max": 0.869,
+        "mean": 0.8646,
+        "min": 0.861,
+        "sample_sd": 0.0028809720581775894
+      },
+      "clean_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_rate": {
+        "max": 0.005,
+        "mean": 0.0042,
+        "min": 0.004,
+        "sample_sd": 0.00044721359549995795
+      },
+      "clean_target_recall": {
+        "max": 0.966,
+        "mean": 0.9653999999999999,
+        "min": 0.964,
+        "sample_sd": 0.0008944271909999167
+      },
+      "development_attack_asr": 0.05,
+      "measured_Mt": 0.1,
+      "move_fraction": 0.0,
+      "paired_delta_asr": {
+        "max": 0.036000000000000004,
+        "mean": 0.033800000000000004,
+        "min": 0.031000000000000003,
+        "sample_sd": 0.0021679483388678806
+      },
+      "rho": 1.0,
+      "target_entries_per_seed": {
+        "max": 36.0,
+        "mean": 33.8,
+        "min": 31.0,
+        "sample_sd": 2.16794833886788
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7977,
+        "mean": 0.79728,
+        "min": 0.797,
+        "sample_sd": 0.00031144823004791445
+      },
+      "attack_intended_asr": {
+        "max": 0.047,
+        "mean": 0.044,
+        "min": 0.042,
+        "sample_sd": 0.002
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.825,
+        "mean": 0.8228,
+        "min": 0.819,
+        "sample_sd": 0.003033150177620623
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.967,
+        "mean": 0.9662,
+        "min": 0.966,
+        "sample_sd": 0.00044721359549995833
+      },
+      "clean_accuracy": {
+        "max": 0.7983,
+        "mean": 0.79764,
+        "min": 0.7968,
+        "sample_sd": 0.0007266360849834104
+      },
+      "clean_sink_share": {
+        "max": 0.872,
+        "mean": 0.866,
+        "min": 0.86,
+        "sample_sd": 0.004743416490252573
+      },
+      "clean_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_rate": {
+        "max": 0.003,
+        "mean": 0.003,
+        "min": 0.003,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.966,
+        "mean": 0.9652,
+        "min": 0.963,
+        "sample_sd": 0.0013038404810405309
+      },
+      "development_attack_asr": 0.068,
+      "measured_Mt": 0.3254736842105263,
+      "move_fraction": 0.25,
+      "paired_delta_asr": {
+        "max": 0.044,
+        "mean": 0.040999999999999995,
+        "min": 0.039,
+        "sample_sd": 0.002
+      },
+      "rho": 1.0,
+      "target_entries_per_seed": {
+        "max": 44.0,
+        "mean": 41.0,
+        "min": 39.0,
+        "sample_sd": 2.0
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.798,
+        "mean": 0.79736,
+        "min": 0.7968,
+        "sample_sd": 0.0004277849927241795
+      },
+      "attack_intended_asr": {
+        "max": 0.055,
+        "mean": 0.0438,
+        "min": 0.039,
+        "sample_sd": 0.006457553716385176
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.824,
+        "mean": 0.8181999999999999,
+        "min": 0.807,
+        "sample_sd": 0.006534523701081775
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.964,
+        "mean": 0.9632,
+        "min": 0.963,
+        "sample_sd": 0.00044721359549995833
+      },
+      "clean_accuracy": {
+        "max": 0.7989,
+        "mean": 0.7976800000000001,
+        "min": 0.7968,
+        "sample_sd": 0.0008814760348415875
+      },
+      "clean_sink_share": {
+        "max": 0.868,
+        "mean": 0.8668,
+        "min": 0.863,
+        "sample_sd": 0.002167948338867882
+      },
+      "clean_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_rate": {
+        "max": 0.003,
+        "mean": 0.0028,
+        "min": 0.002,
+        "sample_sd": 0.00044721359549995795
+      },
+      "clean_target_recall": {
+        "max": 0.963,
+        "mean": 0.963,
+        "min": 0.963,
+        "sample_sd": 0.0
+      },
+      "development_attack_asr": 0.065,
+      "measured_Mt": 0.5509473684210526,
+      "move_fraction": 0.5,
+      "paired_delta_asr": {
+        "max": 0.052,
+        "mean": 0.040999999999999995,
+        "min": 0.036,
+        "sample_sd": 0.006324555320336759
+      },
+      "rho": 1.0,
+      "target_entries_per_seed": {
+        "max": 52.0,
+        "mean": 41.0,
+        "min": 36.0,
+        "sample_sd": 6.324555320336759
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7972,
+        "mean": 0.79674,
+        "min": 0.7959,
+        "sample_sd": 0.0005504543577809092
+      },
+      "attack_intended_asr": {
+        "max": 0.045,
+        "mean": 0.0394,
+        "min": 0.034,
+        "sample_sd": 0.005128352561983232
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.83,
+        "mean": 0.82,
+        "min": 0.812,
+        "sample_sd": 0.0071763500472036374
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.959,
+        "mean": 0.958,
+        "min": 0.957,
+        "sample_sd": 0.0010000000000000009
+      },
+      "clean_accuracy": {
+        "max": 0.7983,
+        "mean": 0.79752,
+        "min": 0.7963,
+        "sample_sd": 0.0007529940238806588
+      },
+      "clean_sink_share": {
+        "max": 0.874,
+        "mean": 0.866,
+        "min": 0.861,
+        "sample_sd": 0.005147815070493505
+      },
+      "clean_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_rate": {
+        "max": 0.001,
+        "mean": 0.001,
+        "min": 0.001,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.962,
+        "mean": 0.9613999999999999,
+        "min": 0.961,
+        "sample_sd": 0.0005477225575051665
+      },
+      "development_attack_asr": 0.059000000000000004,
+      "measured_Mt": 0.7745263157894737,
+      "move_fraction": 0.75,
+      "paired_delta_asr": {
+        "max": 0.044,
+        "mean": 0.0384,
+        "min": 0.033,
+        "sample_sd": 0.005128352561983232
+      },
+      "rho": 1.0,
+      "target_entries_per_seed": {
+        "max": 44.0,
+        "mean": 38.4,
+        "min": 33.0,
+        "sample_sd": 5.128352561983234
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    },
+    {
+      "attack_accuracy": {
+        "max": 0.7028,
+        "mean": 0.7017,
+        "min": 0.7003,
+        "sample_sd": 0.0009137833441248285
+      },
+      "attack_intended_asr": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_sink_classes_by_seed": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "attack_sink_seed_counts": {
+        "6": 5
+      },
+      "attack_sink_share": {
+        "max": 0.868,
+        "mean": 0.8546,
+        "min": 0.845,
+        "sample_sd": 0.008961026726887948
+      },
+      "attack_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "attack_target_recall": {
+        "max": 0.001,
+        "mean": 0.0006000000000000001,
+        "min": 0.0,
+        "sample_sd": 0.0005477225575051661
+      },
+      "clean_accuracy": {
+        "max": 0.7513,
+        "mean": 0.72758,
+        "min": 0.7111,
+        "sample_sd": 0.015081511860552966
+      },
+      "clean_sink_share": {
+        "max": 0.872,
+        "mean": 0.8603999999999999,
+        "min": 0.852,
+        "sample_sd": 0.007300684899377598
+      },
+      "clean_source_recall": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_rate": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "clean_target_recall": {
+        "max": 0.506,
+        "mean": 0.2574,
+        "min": 0.098,
+        "sample_sd": 0.15465542344192137
+      },
+      "development_attack_asr": 0.0,
+      "measured_Mt": 1.0,
+      "move_fraction": 1.0,
+      "paired_delta_asr": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "rho": 1.0,
+      "target_entries_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      },
+      "target_exits_per_seed": {
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  ],
+  "split_metadata_deviation": {
+    "cause": "move_target_fraction drops evaluation_indices; split label tests for that marker",
+    "original_run_records_modified": false,
+    "present": true,
+    "source_indices_match_final_test_manifest": true
+  },
+  "stored_split_metadata": [
+    "repr_select"
+  ]
+}

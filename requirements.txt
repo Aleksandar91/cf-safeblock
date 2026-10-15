@@ -1,0 +1,4 @@
+# Local Phase 1 qualification environment.
+# Verified on 2026-09-30 with Python 3.7.9 and NumPy 1.17.3.
+# Do not require NumPy >= 1.24: percentile calls must not pass method=.
+numpy>=1.17

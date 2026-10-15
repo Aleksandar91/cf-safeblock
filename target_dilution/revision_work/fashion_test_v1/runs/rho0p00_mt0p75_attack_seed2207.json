@@ -1,0 +1,99 @@
+{
+  "accuracy": 0.7975,
+  "accuracy_correct": 7975,
+  "attacker_rho": 1.0,
+  "condition": "attack",
+  "honest_rho": 0.0,
+  "intended_asr": 0.024,
+  "intended_count": 24,
+  "measured_Mt": 0.7745263157894737,
+  "move_fraction": 0.75,
+  "n_source": 1000,
+  "n_total": 10000,
+  "per_class": [
+    {
+      "class_id": 0,
+      "correct": 0,
+      "n": 1000,
+      "recall": 0.0
+    },
+    {
+      "class_id": 1,
+      "correct": 957,
+      "n": 1000,
+      "recall": 0.957
+    },
+    {
+      "class_id": 2,
+      "correct": 783,
+      "n": 1000,
+      "recall": 0.783
+    },
+    {
+      "class_id": 3,
+      "correct": 886,
+      "n": 1000,
+      "recall": 0.886
+    },
+    {
+      "class_id": 4,
+      "correct": 807,
+      "n": 1000,
+      "recall": 0.807
+    },
+    {
+      "class_id": 5,
+      "correct": 938,
+      "n": 1000,
+      "recall": 0.938
+    },
+    {
+      "class_id": 6,
+      "correct": 736,
+      "n": 1000,
+      "recall": 0.736
+    },
+    {
+      "class_id": 7,
+      "correct": 959,
+      "n": 1000,
+      "recall": 0.959
+    },
+    {
+      "class_id": 8,
+      "correct": 969,
+      "n": 1000,
+      "recall": 0.969
+    },
+    {
+      "class_id": 9,
+      "correct": 940,
+      "n": 1000,
+      "recall": 0.94
+    }
+  ],
+  "protocol_version": "revision-fashion-test-v1",
+  "rho": 0.0,
+  "seed": 2207,
+  "sink_class": 6,
+  "sink_count": 841,
+  "sink_share": 0.841,
+  "source": 0,
+  "source_correct": 0,
+  "source_prediction_counts": [
+    0,
+    24,
+    23,
+    91,
+    3,
+    1,
+    841,
+    0,
+    17,
+    0
+  ],
+  "source_recall": 0.0,
+  "split": "repr_select",
+  "target": 1,
+  "target_class_recall": 0.957
+}

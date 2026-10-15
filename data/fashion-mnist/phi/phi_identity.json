@@ -1,0 +1,10 @@
+{
+  "feature_dim": 128,
+  "manifest_sha256": "a9bba9c2f79c6fd973ab2a0d993c794c1198de565675beecf5420608abeaebd1",
+  "normalization_sha256": "fd00de017fcc71d9095c59f432daed3d52bb67aa49c7052996ea14914b1d69b2",
+  "parameters_sha256": "443f03c97839640b5976cec552d4c6040c0e5fe6ab292090bf12bcf025cdf800",
+  "pilot_started": false,
+  "repr_select_ce": 0.3958705017463855,
+  "repr_select_macro_f1": 0.8661943021299049,
+  "selected_epoch": 8
+}
