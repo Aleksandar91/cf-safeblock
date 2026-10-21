@@ -54,3 +54,7 @@ python target_dilution/revision_work/reproduction/run_revision_eval_locked.py sm
 ```
 
 `prepare_inputs.py` checks the locked hashes, restores the trunk only when the working copy is absent, and downloads only missing official archives. The smoke command uses the development pool and compares the evaluator with stored anchors. The archived 100-head test matrix is already in `fashion_test_v1/`. Do not rerun it to regenerate the stored tables. The guarded scoring command is documented in the guide and refuses to overwrite those records.
+
+## Shared-target allocation check
+
+`Multi-target-LF/` records a later check on the development pool `repr_select`. Client 0 still owns every class-0 head-training image, and no target-class image is moved. The three attack allocations send those class-0 labels to class 1, split them between classes 1 and 6, or cycle them across classes 1–9. Clean heads are included. There are 40 per-seed JSON records under `Multi-target-LF/runs/`. The protocol is `Multi-target-LF/protocol.md`, and the runner is `Multi-target-LF/run_split.py`. This directory does not contain a manuscript.
