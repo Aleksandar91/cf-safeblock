@@ -15,7 +15,6 @@ On a flip row the fields are `intended_asr`, `source_recall`, `sink_class`, and 
 | `phase1/results/verdict.json` | Fashion-MNIST pair 0 to 1, label flip, missing-class scale 0, five move fractions |
 | `phase2/results/verdict.json` | Ten Fashion-MNIST pairs, label flip, missing-class scale 0 |
 | `phase3/results/verdict.json` | MNIST pair 0 to 1, label flip, missing-class scale 0 |
-| `phase3/pv_results/verdict.json` | Four-class Apple slice, label flip, shared regime and target monopoly |
 | `phase4_rho1/fashion_dose/verdict.json` | Fashion-MNIST pair 0 to 1, label flip, ordinary softmax, five move fractions |
 | `phase4_rho1/fashion_pairs/verdict.json` | Ten Fashion-MNIST pairs, label flip, ordinary softmax |
 | `phase4_rho1/mnist/verdict.json` | MNIST pair 0 to 1, label flip, ordinary softmax |
@@ -23,7 +22,7 @@ On a flip row the fields are `intended_asr`, `source_recall`, `sink_class`, and 
 | `clean_baseline_mnist/verdict.json` | MNIST pair 0 to 1, no label flip, scale 0 and scale 1, move fractions 0 and 1 |
 | `centralized_head/verdict.json` | Fashion-MNIST pooled client-training features, one linear head, no clients, no label flip |
 
-`phase1/results/verdict.json` does not repeat the scale inside each seed row. The condition is the one named in this table. The later flip files carry `honest_rho`. The two clean files carry `rho` and `"label_flip": false`. The centralized file is one head on the pooled sample. The MNIST clean file and the centralized file were added after the 5 October archive. The eight files above them are unchanged.
+`phase1/results/verdict.json` does not repeat the scale inside each seed row. The condition is the one named in this table. The later flip files carry `honest_rho`. The two clean files carry `rho` and `"label_flip": false`. The centralized file is one head on the pooled sample. The MNIST clean file and the centralized file were added after the 5 October archive. The seven files above them are unchanged.
 
 ## Locked Fashion-MNIST test evaluation
 
@@ -58,3 +57,7 @@ python target_dilution/revision_work/reproduction/run_revision_eval_locked.py sm
 ## Shared-target allocation check
 
 `Multi-target-LF/` records a later check on the development pool `repr_select`. Client 0 still owns every class-0 head-training image, and no target-class image is moved. The three attack allocations send those class-0 labels to class 1, split them between classes 1 and 6, or cycle them across classes 1–9. Clean heads are included. There are 40 per-seed JSON records under `Multi-target-LF/runs/`. The protocol is `Multi-target-LF/protocol.md`, and the runner is `Multi-target-LF/run_split.py`. This directory does not contain a manuscript.
+
+## Homogeneous missing-class scale
+
+`homogeneous-fedrs/` records a later check on the development pool `repr_select`, for Fashion-MNIST pair 0 to 1 at the shared-target and monopoly endpoints. Honest clients stay at scale 0. After warmup, client 0 rewrites class 0 to class 1 and keeps nominal scale 0, so the scale is recomputed from the rewritten labels. There are 10 per-seed JSON records under `homogeneous-fedrs/runs/`. The protocol is `homogeneous-fedrs/protocol.md`, and the runner is `homogeneous-fedrs/run_homogeneous.py`. This directory does not contain a manuscript.
